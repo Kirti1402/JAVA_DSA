@@ -1,0 +1,25 @@
+# Ignore VS Code extensions
+.vscode/
+~/.vscode/
+.vscode/extensions/
+.vscode/settings.json
+
+# Ignore system files
+.DS_Store
+.zsh_history
+*.log
+
+# Ignore config/history files
+~/.redhat/
+.obsolete
+anonymousId
+*.code-workspace
+
+.*
+!.gitignore
+.vscode/
+.vscode/extensions/
+*.json
+*.code-workspace
+.DS_Store
+.zsh_history
