@@ -3,6 +3,7 @@ public class StarPattern {
         starPatternOne(4);
         rightAngledPattern(6);
         rightAngledNumberPattern(5);
+        rightAngledNumberRepeatedPattern(4);
     }
     /*************************************************************************/
     public static void starPatternOne(int n1){
@@ -28,6 +29,15 @@ public class StarPattern {
         for(int i=1;i<=n;i++){
             for(int j=1;j<=i;j++){
                 System.out.print(j+" ");
+            }
+            System.out.println("");
+        }
+    }
+    /*************************************************************************/
+    public static void rightAngledNumberRepeatedPattern(int n){
+        for(int i=1;i<=n;i++){
+            for(int j=1;j<=i;j++){
+                System.out.print(i+" ");
             }
             System.out.println("");
         }
