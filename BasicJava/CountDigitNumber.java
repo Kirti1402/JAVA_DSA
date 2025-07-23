@@ -7,13 +7,17 @@ public class CountDigitNumber {
 
     public static void countDigit(int n){
         int count=0;
-        if(n<=0){
-                System.out.println("Digit is less than or equal to 0");
+        if(n<0){
+                System.out.println("Digit is less than 0");
                 return;
             }
-        while (n>0) {            
-            n = n /10;
-            count++;       
+               if (n == 0) {
+            count = 1;
+        } else {
+            while (n > 0) {
+                n = n / 10;
+                count++;
+            }
         }
         System.out.println("Count:"+ count);
     }
